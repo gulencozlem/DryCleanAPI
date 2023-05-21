@@ -1,0 +1,378 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mehmetgulenc/ozlem-proje/DryCleaner/WebAPI/WebAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Business/Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Business/Business.csproj",
+        "projectName": "Business",
+        "projectPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Business/Business.csproj",
+        "packagesPath": "/Users/mehmetgulenc/.nuget/packages/",
+        "outputPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mehmetgulenc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/mehmetgulenc/ozlem-proje/DryCleaner/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/DataAccess/DataAccess.csproj"
+              },
+              "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Entities/Entities.csproj": {
+                "projectPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.4, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Core/Core.csproj",
+        "packagesPath": "/Users/mehmetgulenc/.nuget/packages/",
+        "outputPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mehmetgulenc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.4, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mehmetgulenc/ozlem-proje/DryCleaner/DataAccess/DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/DataAccess/DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/DataAccess/DataAccess.csproj",
+        "packagesPath": "/Users/mehmetgulenc/.nuget/packages/",
+        "outputPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mehmetgulenc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Core/Core.csproj": {
+                "projectPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Core/Core.csproj"
+              },
+              "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Entities/Entities.csproj": {
+                "projectPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Entities/Entities.csproj",
+        "packagesPath": "/Users/mehmetgulenc/.nuget/packages/",
+        "outputPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mehmetgulenc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Core/Core.csproj": {
+                "projectPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Core/Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mehmetgulenc/ozlem-proje/DryCleaner/WebAPI/WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/WebAPI/WebAPI.csproj",
+        "projectName": "WebAPI",
+        "projectPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/WebAPI/WebAPI.csproj",
+        "packagesPath": "/Users/mehmetgulenc/.nuget/packages/",
+        "outputPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/WebAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mehmetgulenc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Business/Business.csproj": {
+                "projectPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Business/Business.csproj"
+              },
+              "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Core/Core.csproj": {
+                "projectPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Core/Core.csproj"
+              },
+              "/Users/mehmetgulenc/ozlem-proje/DryCleaner/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/DataAccess/DataAccess.csproj"
+              },
+              "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Entities/Entities.csproj": {
+                "projectPath": "/Users/mehmetgulenc/ozlem-proje/DryCleaner/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
